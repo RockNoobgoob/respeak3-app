@@ -13,6 +13,13 @@
 		B3A1C0001A2B3C4D5E6F7007 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3A1C0001A2B3C4D5E6F7006 /* Preview Assets.xcassets */; };
 		AA000001000000000000AA01 /* ServiceContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000001000000000000AA00 /* ServiceContainer.swift */; };
 		AA000002000000000000AA01 /* RepositoryContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000002000000000000AA00 /* RepositoryContainer.swift */; };
+		TH000001000000000000TH01 /* BrandColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = TH000001000000000000TH00 /* BrandColors.swift */; };
+		TH000002000000000000TH01 /* BrandTypography.swift in Sources */ = {isa = PBXBuildFile; fileRef = TH000002000000000000TH00 /* BrandTypography.swift */; };
+		TH000003000000000000TH01 /* BrandGradients.swift in Sources */ = {isa = PBXBuildFile; fileRef = TH000003000000000000TH00 /* BrandGradients.swift */; };
+		TH000004000000000000TH01 /* Spacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = TH000004000000000000TH00 /* Spacing.swift */; };
+		TH000005000000000000TH01 /* Radii.swift in Sources */ = {isa = PBXBuildFile; fileRef = TH000005000000000000TH00 /* Radii.swift */; };
+		TH000006000000000000TH01 /* Shadows.swift in Sources */ = {isa = PBXBuildFile; fileRef = TH000006000000000000TH00 /* Shadows.swift */; };
+		VW000001000000000000VW01 /* ThemeDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = VW000001000000000000VW00 /* ThemeDemoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +30,13 @@
 		B3A1C0001A2B3C4D5E6F7008 /* ReSpeak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReSpeak.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA000001000000000000AA00 /* ServiceContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceContainer.swift; sourceTree = "<group>"; };
 		AA000002000000000000AA00 /* RepositoryContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryContainer.swift; sourceTree = "<group>"; };
+		TH000001000000000000TH00 /* BrandColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandColors.swift; sourceTree = "<group>"; };
+		TH000002000000000000TH00 /* BrandTypography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandTypography.swift; sourceTree = "<group>"; };
+		TH000003000000000000TH00 /* BrandGradients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandGradients.swift; sourceTree = "<group>"; };
+		TH000004000000000000TH00 /* Spacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spacing.swift; sourceTree = "<group>"; };
+		TH000005000000000000TH00 /* Radii.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Radii.swift; sourceTree = "<group>"; };
+		TH000006000000000000TH00 /* Shadows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shadows.swift; sourceTree = "<group>"; };
+		VW000001000000000000VW00 /* ThemeDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeDemoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +102,12 @@
 		AA100002000000000000AA00 /* Theme */ = {
 			isa = PBXGroup;
 			children = (
+				TH000001000000000000TH00 /* BrandColors.swift */,
+				TH000002000000000000TH00 /* BrandTypography.swift */,
+				TH000003000000000000TH00 /* BrandGradients.swift */,
+				TH000004000000000000TH00 /* Spacing.swift */,
+				TH000005000000000000TH00 /* Radii.swift */,
+				TH000006000000000000TH00 /* Shadows.swift */,
 			);
 			path = Theme;
 			sourceTree = "<group>";
@@ -103,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				B3A1C0001A2B3C4D5E6F7002 /* ContentView.swift */,
+				VW000001000000000000VW00 /* ThemeDemoView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -211,6 +232,13 @@
 				B3A1C0001A2B3C4D5E6F7001 /* ReSpeakApp.swift in Sources */,
 				AA000001000000000000AA01 /* ServiceContainer.swift in Sources */,
 				AA000002000000000000AA01 /* RepositoryContainer.swift in Sources */,
+				TH000001000000000000TH01 /* BrandColors.swift in Sources */,
+				TH000002000000000000TH01 /* BrandTypography.swift in Sources */,
+				TH000003000000000000TH01 /* BrandGradients.swift in Sources */,
+				TH000004000000000000TH01 /* Spacing.swift in Sources */,
+				TH000005000000000000TH01 /* Radii.swift in Sources */,
+				TH000006000000000000TH01 /* Shadows.swift in Sources */,
+				VW000001000000000000VW01 /* ThemeDemoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
