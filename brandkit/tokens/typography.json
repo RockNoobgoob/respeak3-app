@@ -1,0 +1,119 @@
+{
+  "_meta": {
+    "description": "HovaRehab / ReSpeak3 typography tokens.",
+    "notes": "Primary font is SF Pro on iOS (system default). Web fallback chain uses Inter then system-ui. All sizes in points (iOS) / pixels (web) — 1pt = 1px at 1x scale.",
+    "lastUpdated": "2026-03-02"
+  },
+
+  "fontFamily": {
+    "primary": "Inter, -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', Helvetica, Arial, sans-serif",
+    "display": "Inter, -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Helvetica, Arial, sans-serif",
+    "mono":    "'SF Mono', 'Fira Code', 'Fira Mono', 'Roboto Mono', Menlo, Courier, monospace"
+  },
+
+  "size": {
+    "xs":   "11",
+    "sm":   "13",
+    "base": "15",
+    "md":   "17",
+    "lg":   "20",
+    "xl":   "22",
+    "2xl":  "28",
+    "3xl":  "34",
+    "4xl":  "40"
+  },
+
+  "weight": {
+    "regular":  "400",
+    "medium":   "500",
+    "semibold": "600",
+    "bold":     "700"
+  },
+
+  "lineHeight": {
+    "tight":   "1.15",
+    "normal":  "1.45",
+    "relaxed": "1.65"
+  },
+
+  "letterSpacing": {
+    "tight":  "-0.02em",
+    "normal": "0em",
+    "wide":   "0.04em"
+  },
+
+  "roles": {
+    "display": {
+      "size":        "3xl",
+      "weight":      "bold",
+      "lineHeight":  "tight",
+      "description": "Largest display heading. Hero text, onboarding splash."
+    },
+    "title": {
+      "size":        "2xl",
+      "weight":      "bold",
+      "lineHeight":  "tight",
+      "description": "Primary screen title."
+    },
+    "subtitle": {
+      "size":        "xl",
+      "weight":      "semibold",
+      "lineHeight":  "tight",
+      "description": "Secondary heading, card headers."
+    },
+    "sectionTitle": {
+      "size":        "lg",
+      "weight":      "semibold",
+      "lineHeight":  "tight",
+      "description": "Tertiary / sub-section heading."
+    },
+    "headline": {
+      "size":        "md",
+      "weight":      "semibold",
+      "lineHeight":  "normal",
+      "description": "Prominent label inside cards and list rows."
+    },
+    "body": {
+      "size":        "md",
+      "weight":      "regular",
+      "lineHeight":  "relaxed",
+      "description": "Standard paragraph and list item text."
+    },
+    "callout": {
+      "size":        "base",
+      "weight":      "regular",
+      "lineHeight":  "relaxed",
+      "description": "Supplementary copy inside cards."
+    },
+    "subheadline": {
+      "size":        "base",
+      "weight":      "regular",
+      "lineHeight":  "normal",
+      "description": "Supporting descriptive text below headlines."
+    },
+    "caption": {
+      "size":        "sm",
+      "weight":      "regular",
+      "lineHeight":  "normal",
+      "description": "Image captions, compact data labels."
+    },
+    "label": {
+      "size":        "xs",
+      "weight":      "semibold",
+      "lineHeight":  "normal",
+      "description": "Smallest supplementary metadata, tags, badges."
+    },
+    "button": {
+      "size":        "md",
+      "weight":      "semibold",
+      "lineHeight":  "tight",
+      "description": "Primary and secondary button labels."
+    },
+    "navTitle": {
+      "size":        "md",
+      "weight":      "semibold",
+      "lineHeight":  "tight",
+      "description": "Navigation bar title text."
+    }
+  }
+}

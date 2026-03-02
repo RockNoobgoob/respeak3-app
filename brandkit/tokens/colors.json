@@ -1,0 +1,59 @@
+{
+  "_meta": {
+    "description": "HovaRehab / ReSpeak3 color tokens — single source of truth for iOS and web.",
+    "brand": "HovaRehab",
+    "lastUpdated": "2026-03-02",
+    "contrastStandard": "WCAG AA (4.5:1 for normal text, 3:1 for large text)"
+  },
+
+  "brand": {
+    "900": "#0A1F44",
+    "800": "#1A3C5E",
+    "700": "#1F4E7A",
+    "600": "#236296",
+    "500": "#2E6DA4",
+    "400": "#4A8EC2",
+    "300": "#72AEDD",
+    "200": "#A8CFF0",
+    "100": "#D0E8F8",
+    "50":  "#EBF5FD"
+  },
+
+  "surface": {
+    "0":   "#FFFFFF",
+    "50":  "#F4F7FB",
+    "100": "#EAF1FB",
+    "200": "#D0DFF0",
+    "300": "#B0C4D8"
+  },
+
+  "text": {
+    "900": "#1C2B3A",
+    "700": "#2C3E50",
+    "500": "#5A7089",
+    "300": "#8FA6BC"
+  },
+
+  "semantic": {
+    "success": "#2A9D5C",
+    "successLight": "#E6F7EF",
+    "warning": "#F4A020",
+    "warningLight": "#FEF3E0",
+    "danger":  "#D62839",
+    "dangerLight": "#FCEAEC",
+    "info":    "#2E6DA4",
+    "infoLight": "#E8F2FA"
+  },
+
+  "accent": {
+    "primary":   "#00B4D8",
+    "secondary": "#0096B7",
+    "light":     "#CCEFFA"
+  },
+
+  "fixed": {
+    "white": "#FFFFFF",
+    "black": "#000000",
+    "transparent": "transparent"
+  }
+}
