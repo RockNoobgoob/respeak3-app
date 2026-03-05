@@ -7,12 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA000001000000000000AA01 /* ServiceContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000001000000000000AA00 /* ServiceContainer.swift */; };
+		AA000002000000000000AA01 /* RepositoryContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000002000000000000AA00 /* RepositoryContainer.swift */; };
+		AP000001000000000000AP01 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AP000001000000000000AP00 /* AppView.swift */; };
+		AP000002000000000000AP01 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AP000002000000000000AP00 /* MainTabView.swift */; };
 		B3A1C0001A2B3C4D5E6F7001 /* ReSpeakApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A1C0001A2B3C4D5E6F7000 /* ReSpeakApp.swift */; };
 		B3A1C0001A2B3C4D5E6F7003 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A1C0001A2B3C4D5E6F7002 /* ContentView.swift */; };
 		B3A1C0001A2B3C4D5E6F7005 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3A1C0001A2B3C4D5E6F7004 /* Assets.xcassets */; };
 		B3A1C0001A2B3C4D5E6F7007 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3A1C0001A2B3C4D5E6F7006 /* Preview Assets.xcassets */; };
-		AA000001000000000000AA01 /* ServiceContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000001000000000000AA00 /* ServiceContainer.swift */; };
-		AA000002000000000000AA01 /* RepositoryContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000002000000000000AA00 /* RepositoryContainer.swift */; };
+		FT000001000000000000FT01 /* PracticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FT000001000000000000FT00 /* PracticeView.swift */; };
+		FT000002000000000000FT01 /* ExerciseRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FT000002000000000000FT00 /* ExerciseRowView.swift */; };
+		FT000003000000000000FT01 /* ReportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FT000003000000000000FT00 /* ReportView.swift */; };
+		FT000004000000000000FT01 /* HelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FT000004000000000000FT00 /* HelpView.swift */; };
+		FT000005000000000000FT01 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FT000005000000000000FT00 /* SettingsView.swift */; };
 		TH000001000000000000TH01 /* BrandColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = TH000001000000000000TH00 /* BrandColors.swift */; };
 		TH000002000000000000TH01 /* BrandTypography.swift in Sources */ = {isa = PBXBuildFile; fileRef = TH000002000000000000TH00 /* BrandTypography.swift */; };
 		TH000003000000000000TH01 /* BrandGradients.swift in Sources */ = {isa = PBXBuildFile; fileRef = TH000003000000000000TH00 /* BrandGradients.swift */; };
@@ -20,16 +27,27 @@
 		TH000005000000000000TH01 /* Radii.swift in Sources */ = {isa = PBXBuildFile; fileRef = TH000005000000000000TH00 /* Radii.swift */; };
 		TH000006000000000000TH01 /* Shadows.swift in Sources */ = {isa = PBXBuildFile; fileRef = TH000006000000000000TH00 /* Shadows.swift */; };
 		VW000001000000000000VW01 /* ThemeDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = VW000001000000000000VW00 /* ThemeDemoView.swift */; };
+		VW000002000000000000VW01 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = VW000002000000000000VW00 /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		664669BC2F598F7B00C3B8FD /* config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = config.xcconfig; sourceTree = "<group>"; };
+		664669BD2F59927C00C3B8FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		664669BE2F5992F400C3B8FD /* Supabasemanager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Supabasemanager.swift; sourceTree = "<group>"; };
+		AA000001000000000000AA00 /* ServiceContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceContainer.swift; sourceTree = "<group>"; };
+		AA000002000000000000AA00 /* RepositoryContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryContainer.swift; sourceTree = "<group>"; };
+		AP000001000000000000AP00 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		AP000002000000000000AP00 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		B3A1C0001A2B3C4D5E6F7000 /* ReSpeakApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReSpeakApp.swift; sourceTree = "<group>"; };
 		B3A1C0001A2B3C4D5E6F7002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B3A1C0001A2B3C4D5E6F7004 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3A1C0001A2B3C4D5E6F7006 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B3A1C0001A2B3C4D5E6F7008 /* ReSpeak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReSpeak.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		AA000001000000000000AA00 /* ServiceContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceContainer.swift; sourceTree = "<group>"; };
-		AA000002000000000000AA00 /* RepositoryContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryContainer.swift; sourceTree = "<group>"; };
+		FT000001000000000000FT00 /* PracticeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeView.swift; sourceTree = "<group>"; };
+		FT000002000000000000FT00 /* ExerciseRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseRowView.swift; sourceTree = "<group>"; };
+		FT000003000000000000FT00 /* ReportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportView.swift; sourceTree = "<group>"; };
+		FT000004000000000000FT00 /* HelpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpView.swift; sourceTree = "<group>"; };
+		FT000005000000000000FT00 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		TH000001000000000000TH00 /* BrandColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandColors.swift; sourceTree = "<group>"; };
 		TH000002000000000000TH00 /* BrandTypography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandTypography.swift; sourceTree = "<group>"; };
 		TH000003000000000000TH00 /* BrandGradients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandGradients.swift; sourceTree = "<group>"; };
@@ -37,6 +55,7 @@
 		TH000005000000000000TH00 /* Radii.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Radii.swift; sourceTree = "<group>"; };
 		TH000006000000000000TH00 /* Shadows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shadows.swift; sourceTree = "<group>"; };
 		VW000001000000000000VW00 /* ThemeDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeDemoView.swift; sourceTree = "<group>"; };
+		VW000002000000000000VW00 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,51 +69,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B3A1C0001A2B3C4D5E6F7020 /* ReSpeak */ = {
-			isa = PBXGroup;
-			children = (
-				AA100001000000000000AA00 /* App */,
-				AA100002000000000000AA00 /* Theme */,
-				AA100003000000000000AA00 /* Models */,
-				AA100004000000000000AA00 /* Views */,
-				AA100005000000000000AA00 /* ViewModels */,
-				AA100006000000000000AA00 /* Services */,
-				AA100007000000000000AA00 /* Repositories */,
-				AA100008000000000000AA00 /* Resources */,
-				B3A1C0001A2B3C4D5E6F7004 /* Assets.xcassets */,
-				B3A1C0001A2B3C4D5E6F7030 /* Preview Content */,
-			);
-			path = ReSpeak;
-			sourceTree = "<group>";
-		};
-		B3A1C0001A2B3C4D5E6F7021 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				B3A1C0001A2B3C4D5E6F7008 /* ReSpeak.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		B3A1C0001A2B3C4D5E6F7022 /* Root */ = {
-			isa = PBXGroup;
-			children = (
-				B3A1C0001A2B3C4D5E6F7020 /* ReSpeak */,
-				B3A1C0001A2B3C4D5E6F7021 /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		B3A1C0001A2B3C4D5E6F7030 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				B3A1C0001A2B3C4D5E6F7006 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
 		AA100001000000000000AA00 /* App */ = {
 			isa = PBXGroup;
 			children = (
 				B3A1C0001A2B3C4D5E6F7000 /* ReSpeakApp.swift */,
+				AP000001000000000000AP00 /* AppView.swift */,
+				AP000002000000000000AP00 /* MainTabView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -124,6 +104,7 @@
 			children = (
 				B3A1C0001A2B3C4D5E6F7002 /* ContentView.swift */,
 				VW000001000000000000VW00 /* ThemeDemoView.swift */,
+				VW000002000000000000VW00 /* LoginView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -156,6 +137,95 @@
 			children = (
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		B3A1C0001A2B3C4D5E6F7020 /* ReSpeak */ = {
+			isa = PBXGroup;
+			children = (
+				664669BD2F59927C00C3B8FD /* Info.plist */,
+				AA100001000000000000AA00 /* App */,
+				AA100002000000000000AA00 /* Theme */,
+				AA100003000000000000AA00 /* Models */,
+				AA100004000000000000AA00 /* Views */,
+				FT100000000000000000FT00 /* Features */,
+				AA100005000000000000AA00 /* ViewModels */,
+				AA100006000000000000AA00 /* Services */,
+				AA100007000000000000AA00 /* Repositories */,
+				AA100008000000000000AA00 /* Resources */,
+				B3A1C0001A2B3C4D5E6F7004 /* Assets.xcassets */,
+				B3A1C0001A2B3C4D5E6F7030 /* Preview Content */,
+			);
+			path = ReSpeak;
+			sourceTree = "<group>";
+		};
+		B3A1C0001A2B3C4D5E6F7021 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3A1C0001A2B3C4D5E6F7008 /* ReSpeak.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3A1C0001A2B3C4D5E6F7022 = {
+			isa = PBXGroup;
+			children = (
+				B3A1C0001A2B3C4D5E6F7020 /* ReSpeak */,
+				B3A1C0001A2B3C4D5E6F7021 /* Products */,
+				664669BC2F598F7B00C3B8FD /* config.xcconfig */,
+				664669BE2F5992F400C3B8FD /* Supabasemanager.swift */,
+			);
+			sourceTree = "<group>";
+		};
+		B3A1C0001A2B3C4D5E6F7030 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B3A1C0001A2B3C4D5E6F7006 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FT100000000000000000FT00 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				FT100001000000000000FT00 /* Practice */,
+				FT100002000000000000FT00 /* Report */,
+				FT100003000000000000FT00 /* Help */,
+				FT100004000000000000FT00 /* Settings */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		FT100001000000000000FT00 /* Practice */ = {
+			isa = PBXGroup;
+			children = (
+				FT000001000000000000FT00 /* PracticeView.swift */,
+				FT000002000000000000FT00 /* ExerciseRowView.swift */,
+			);
+			path = Practice;
+			sourceTree = "<group>";
+		};
+		FT100002000000000000FT00 /* Report */ = {
+			isa = PBXGroup;
+			children = (
+				FT000003000000000000FT00 /* ReportView.swift */,
+			);
+			path = Report;
+			sourceTree = "<group>";
+		};
+		FT100003000000000000FT00 /* Help */ = {
+			isa = PBXGroup;
+			children = (
+				FT000004000000000000FT00 /* HelpView.swift */,
+			);
+			path = Help;
+			sourceTree = "<group>";
+		};
+		FT100004000000000000FT00 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				FT000005000000000000FT00 /* SettingsView.swift */,
+			);
+			path = Settings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,7 +271,10 @@
 				en,
 				Base,
 			);
-			mainGroup = B3A1C0001A2B3C4D5E6F7022 /* Root */;
+			mainGroup = B3A1C0001A2B3C4D5E6F7022;
+			packageReferences = (
+				664669BA2F598EF400C3B8FD /* XCRemoteSwiftPackageReference "supabase-swift" */,
+			);
 			productRefGroup = B3A1C0001A2B3C4D5E6F7021 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -239,6 +312,14 @@
 				TH000005000000000000TH01 /* Radii.swift in Sources */,
 				TH000006000000000000TH01 /* Shadows.swift in Sources */,
 				VW000001000000000000VW01 /* ThemeDemoView.swift in Sources */,
+				VW000002000000000000VW01 /* LoginView.swift in Sources */,
+				AP000001000000000000AP01 /* AppView.swift in Sources */,
+				AP000002000000000000AP01 /* MainTabView.swift in Sources */,
+				FT000001000000000000FT01 /* PracticeView.swift in Sources */,
+				FT000002000000000000FT01 /* ExerciseRowView.swift in Sources */,
+				FT000003000000000000FT01 /* ReportView.swift in Sources */,
+				FT000004000000000000FT01 /* HelpView.swift in Sources */,
+				FT000005000000000000FT01 /* SettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +328,7 @@
 /* Begin XCBuildConfiguration section */
 		B3A1C0001A2B3C4D5E6F7061 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 664669BC2F598F7B00C3B8FD /* config.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -255,6 +337,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ReSpeak/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ReSpeak/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -276,6 +359,7 @@
 		};
 		B3A1C0001A2B3C4D5E6F7062 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 664669BC2F598F7B00C3B8FD /* config.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -284,6 +368,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ReSpeak/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ReSpeak/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -305,6 +390,7 @@
 		};
 		B3A1C0001A2B3C4D5E6F7063 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 664669BC2F598F7B00C3B8FD /* config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -366,6 +452,7 @@
 		};
 		B3A1C0001A2B3C4D5E6F7064 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 664669BC2F598F7B00C3B8FD /* config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -441,6 +528,16 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCRemoteSwiftPackageReference section */
+		664669BA2F598EF400C3B8FD /* XCRemoteSwiftPackageReference "supabase-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/supabase/supabase-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.5.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = B3A1C0001A2B3C4D5E6F7050 /* Project object */;
 }

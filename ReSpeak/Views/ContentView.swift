@@ -13,10 +13,11 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        ThemeDemoView()
+        LoginView()
     }
 }
 
 #Preview {
     ContentView()
 }
+
